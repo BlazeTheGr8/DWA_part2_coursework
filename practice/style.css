@@ -1,0 +1,39 @@
+h1{
+    margin: 50px
+}
+
+.h1-one::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    background-color: black;
+}
+
+.h1-two::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 5px solid black;
+    border-radius: 50%;
+    left: 20px;
+    top: 150px;
+    background-color: black;
+}
+
+.h1-one::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 95px;
+    border: 5px solid black;
+    left: 30px;
+    top: 63px;
+    background-color: black;
+
+}
